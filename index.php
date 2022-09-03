@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Exemplo PHP</title>
+<title>Minha página PHP</title>
 </head>
 <body>
 
@@ -13,10 +13,10 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "54.234.153.24";
+$servername = "172.17.0.10";
 $username = "root";
-$password = "Senha123";
-$database = "meubanco";
+$password = "mysqlpw";
+$database = "logapdbmysql";
 
 // Criar conexão
 
